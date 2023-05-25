@@ -1,0 +1,40 @@
+body {
+    background-image: url(../image/pokemon-background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(182, 218, 22);
+    text-align: center;
+    
+}
+
+p {
+    background-color: black;
+    border-radius: 15px;
+    padding: 2rem;
+    color: rgb(236, 238, 227);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: rgb(182, 218, 22);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+strong {
+    color: rgb(182, 218, 22);
+}
